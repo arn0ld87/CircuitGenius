@@ -58,7 +58,7 @@ function CircuitCalculator() {
         }
 
         try {
-            const response = await fetch('http://localhost:8000/api/solve', {
+            const response = await fetch('https://circuitgenius.onrender.com', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(payload),
