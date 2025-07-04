@@ -10,7 +10,7 @@ app = FastAPI()
 # CORS middleware to allow requests from the frontend
 origins = [
     "http://localhost:3000",  # React frontend
-    "https://your-frontend-app-name.onrender.com", # Placeholder for Render frontend URL
+    "https://circuitgenius-alexle135.onrender.com", # Ihre Render frontend URL
 ]
 
 app.add_middleware(
